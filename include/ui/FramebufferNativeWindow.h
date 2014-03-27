@@ -28,7 +28,9 @@
 #include <ui/ANativeObjectBase.h>
 #include <ui/Rect.h>
 
+#ifndef MIN_NUM_FRAME_BUFFERS
 #define MIN_NUM_FRAME_BUFFERS  2
+#endif
 #define MAX_NUM_FRAME_BUFFERS  3
 
 #ifdef SAMSUNG_HDMI_SUPPORT
